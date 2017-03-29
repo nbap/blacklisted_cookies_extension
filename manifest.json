@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "My extension",
+    "permissions": [
+        "cookies",
+        "tabs",
+        "*://*/*"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
